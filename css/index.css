@@ -59,11 +59,18 @@ ul.nav_content{
 }
 li.nav_content_list{
 	float:left;
+	position:relative;
 	padding:17px 20px 19px;
 	height:18px;
 	font-size:14px;
 	line-height:18px;
 	text-align:center;
+}
+li.nav_content_list:first-child{
+	border-bottom:3px solid #e74f4d;
+}
+li.nav_content_list:first-child a{
+	color:#e74f4d;
 }
 li.nav_content_list:hover{
 	color:#e74f4d;
@@ -74,6 +81,17 @@ li.nav_content_list a{
 }
 li.nav_content_list:hover a.nav_a{
 	color:#e74f4d;
+}
+span.login{
+	position:absolute;
+	top:17px;
+	left:0px;
+	width:17px;
+	height:17px;
+	background-image:url(../icons/login.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
 }
 /*导航栏结束*/
 /*主体部分开始*/
